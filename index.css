@@ -1,0 +1,17 @@
+/* header {
+    display: flex;
+    flex-direction: row;
+} */
+section {
+    border: 2px solid red;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* list-style: none; */
+    /* padding: 0; */
+    /* border: 2px solid red; */
+    background-color: blueviolet;
+}
