@@ -1,17 +1,61 @@
-/* header {
-    display: flex;
-    flex-direction: row;
-} */
-section {
-    border: 2px solid red;
+* {
+    box-sizing: border-box;
+    border:none
 }
-body {
+.container {
+    padding:10px;
+    border: 2px solid black;
+}
+header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* justify-content: space-between; */
-    /* list-style: none; */
-    /* padding: 0; */
-    /* border: 2px solid red; */
-    background-color: blueviolet;
+    align-items: flex-end;
+    justify-content:space-evenly;
+    background-color:cornflowerblue;
+    padding: 5px;
+}
+img {
+    border-radius: 50%;
+    width: 130px;
+    height: 120px;
+}
+section {
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#nav li {
+    list-style: none; /* li pointers will vanish*/
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav li:hover {
+    background-color:darksalmon;
+}
+nav {
+    background-color:burlywood;
+}
+main {
+    /* padding: 10px; */
+}
+#TechnicalSkills li {
+    list-style-type: lower-roman;
+    display: flex;
+}
+table {
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+h4 {
+    font-family: serif;
+    color:darkviolet
+}
+hr {
+    color: brown;
+    width: 20px;
 }
